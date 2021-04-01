@@ -1,9 +1,9 @@
 ﻿// Program > {} EstruDoPrograma
 using System;
-using EstruDoPrograma.Exemplos;
+using EstruDoPrograma.DesafiosIntro;
 namespace EstruDoPrograma{
     class Program{
-         void Main(string[] args){
+         static int Main(string[] args){
             var s= new Pilha();
             var valor = new LacoBoasVindas();
             var div = new divisao();
@@ -20,6 +20,7 @@ namespace EstruDoPrograma{
 
             som.soma();
             dist.dista();
+            return 0; 
         }
     }
 }
