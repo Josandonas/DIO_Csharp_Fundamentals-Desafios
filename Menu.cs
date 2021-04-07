@@ -9,10 +9,10 @@ namespace EstruDoPrograma.Menu{
                 switch (opcao){
                     case "1":
                         var s = new Pilha();
-                        for (int p = 0; p <= 10; p++){
+                        for (int p = 0; p <= 5; p++){
                             s.Empilha(p);
                         }
-                        for (int p = 0; p <= 10; p++){
+                        for (int p = 0; p <= 5; p++){
                             Console.WriteLine(s.Desempilha());
                         }
                         break;
@@ -26,6 +26,7 @@ namespace EstruDoPrograma.Menu{
                         div.dividindo();
                         break;
                     case "4":
+                        Console.WriteLine("\t  Digite 5 Valores: ");
                         var som = new Mandiocas();
                         som.soma();
                         break;
