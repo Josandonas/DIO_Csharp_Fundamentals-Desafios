@@ -1,5 +1,5 @@
 using System;
-namespace EstruDoPrograma.DesafiosIntro2{
+namespace EstruDoPrograma.MediaAlunos{
     public class Media{
         
     }
