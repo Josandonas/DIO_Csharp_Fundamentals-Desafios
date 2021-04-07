@@ -1,6 +1,6 @@
 using System;
 namespace EstruDoPrograma.DesafiosIntro{
-    public class mandiocas{
+    public class Mandiocas{
         public void soma() {
             var chico = 300 * Int32.Parse(Console.ReadLine());
             var bento = 1500 * Int32.Parse(Console.ReadLine());

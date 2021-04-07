@@ -5,7 +5,7 @@
 // os valores em questão.
 using System;
 namespace EstruDoPrograma.DesafiosIntro{
-    public class divisao{
+    public class Divisao{
         public void dividindo(){
             int limit = Int32.Parse(Console.ReadLine());
             for (int i = 0; i < limit; i++){

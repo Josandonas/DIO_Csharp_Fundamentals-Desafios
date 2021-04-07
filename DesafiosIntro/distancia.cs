@@ -4,7 +4,7 @@
 // O seu desafio é ler a distância (em Km) e calcular quanto tempo leva (em minutos) para a moto Y tomar essa distância da outra moto.
 using System;
 namespace EstruDoPrograma.DesafiosIntro{
-    public class distancia{
+    public class Distancia{
       public void dista() {
         int quilometros = Int32.Parse(Console.ReadLine());
         int minutos = quilometros * 2; // Digite aqui o calculo dos minutos
