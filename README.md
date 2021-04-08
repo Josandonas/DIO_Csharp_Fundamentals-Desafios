@@ -1,4 +1,4 @@
-# Exemplos Csharp
+# Projeto Csharp Console
 No presente projeto são adequados exemplos de funções usando C# para fins de aprendizagem sobre .NET
 - **Acompanha Menu Para Execução Dos Desafios**
 > ### Nele estão contidos os desafios da DIO do Bootcamp C#: 
