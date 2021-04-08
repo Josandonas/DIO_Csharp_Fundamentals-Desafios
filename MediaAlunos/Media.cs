@@ -65,6 +65,7 @@ namespace EstruDoPrograma.MediaAlunos{
             Console.WriteLine("1- Inserir Novo Aluno");
             Console.WriteLine("2- Listar Alunos");
             Console.WriteLine("3- Calcular Média Geral");
+            Console.WriteLine("X- Para Sair");
             Console.WriteLine();
             String opcao = Console.ReadLine();
             return opcao;
