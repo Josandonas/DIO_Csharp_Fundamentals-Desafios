@@ -43,7 +43,11 @@ namespace EstruDoPrograma.Menu{
                     case "7":
                         var bazi = new Bazinga();
                         bazi.bazing();
-                        break;                        
+                        break;
+                    case "8":
+                        var coxa = new CoxinhaDeBueno();
+                        coxa.coxinha();
+                        break;                                                
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
@@ -63,6 +67,7 @@ namespace EstruDoPrograma.Menu{
             Console.WriteLine("\t\n    5: Problema das Mandiocas");
             Console.WriteLine("\t\n    6: Problema da Distancia");
             Console.WriteLine("\t\n    7: Bazinga!");
+            Console.WriteLine("\t\n    8: Coxinhas de Bueno");
             Console.WriteLine("\t\n    X: Encerrar Programa");
             Console.WriteLine("\t\n #------------------------------------#");
 
