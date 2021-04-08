@@ -61,7 +61,7 @@ namespace EstruDoPrograma.Menu{
             Console.WriteLine("\t\n #------------------------------------#");
             Console.WriteLine("\t\n   Digite uma das opções de execução:");
             Console.WriteLine("\t\n    1: Pilha");
-            Console.WriteLine("\t\n    2: Cálclulo Da Média");
+            Console.WriteLine("\t\n    2: Cálclulo Da Média De Alunos");
             Console.WriteLine("\t\n    3: Laço Boas Vindas");
             Console.WriteLine("\t\n    4: Divisão Simples");
             Console.WriteLine("\t\n    5: Problema das Mandiocas");
