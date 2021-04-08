@@ -1,5 +1,5 @@
 using System;
-namespace EstruDoPrograma.DesafiosIntro{
+namespace EstruDoPrograma.DesafiosIntro1{
     public class LacoBoasVindas{
       public void lacoBoas(int quantidade){
         for(int i=0; i <= quantidade ; i++){

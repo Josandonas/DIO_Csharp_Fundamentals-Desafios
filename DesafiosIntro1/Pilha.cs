@@ -1,6 +1,6 @@
 using System;
 
-namespace EstruDoPrograma.DesafiosIntro{
+namespace EstruDoPrograma.DesafiosIntro1{
     public class Pilha{
         Posicao primeiro;
         public void Empilha(object item){

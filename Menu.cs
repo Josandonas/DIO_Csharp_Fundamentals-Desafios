@@ -1,5 +1,6 @@
 using System;
-using EstruDoPrograma.DesafiosIntro;
+using EstruDoPrograma.DesafiosIntro1;
+using EstruDoPrograma.DesafiosIntro2;
 
 namespace EstruDoPrograma.Menu{
     public class Menu{
@@ -34,6 +35,10 @@ namespace EstruDoPrograma.Menu{
                         var dist = new Distancia();
                         dist.dista();
                         break;
+                    case "6":
+                        var bazi = new Bazinga();
+                        bazi.bazing();
+                        break;                        
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
@@ -51,6 +56,7 @@ namespace EstruDoPrograma.Menu{
             Console.WriteLine("\t\n    3: Divisão Simples");
             Console.WriteLine("\t\n    4: Problema das Mandiocas");
             Console.WriteLine("\t\n    5: Problema da Distancia");
+            Console.WriteLine("\t\n    6: Bazinga!");
             Console.WriteLine("\t\n    X: Encerrar Programa");
             Console.WriteLine("\t\n #------------------------------------#");
 

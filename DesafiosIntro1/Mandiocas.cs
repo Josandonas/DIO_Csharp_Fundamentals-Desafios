@@ -1,5 +1,5 @@
 using System;
-namespace EstruDoPrograma.DesafiosIntro{
+namespace EstruDoPrograma.DesafiosIntro1{
     public class Mandiocas{
         public void soma() {
             var chico = 300 * Int32.Parse(Console.ReadLine());

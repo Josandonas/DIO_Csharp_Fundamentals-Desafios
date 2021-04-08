@@ -4,7 +4,7 @@
 // Caso não for possível, mostre a mensagem “divisao impossivel” para
 // os valores em questão.
 using System;
-namespace EstruDoPrograma.DesafiosIntro{
+namespace EstruDoPrograma.DesafiosIntro1{
     public class Divisao{
         public void dividindo(){
             int limit = Int32.Parse(Console.ReadLine());
