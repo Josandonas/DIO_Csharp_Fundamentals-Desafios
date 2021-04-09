@@ -1,6 +1,7 @@
 using System;
 using EstruDoPrograma.DesafiosIntro1;
 using EstruDoPrograma.DesafiosIntro2;
+using EstruDoPrograma.DesafiosIntro3;
 using EstruDoPrograma.MediaAlunos;
 
 namespace EstruDoPrograma.Menu{
@@ -48,6 +49,10 @@ namespace EstruDoPrograma.Menu{
                         var coxa = new CoxinhaDeBueno();
                         coxa.coxinha();
                         break;                                                
+                     case "9":
+                        var valida = new ValidaNotas();
+                        valida.validaNotas();
+                        break; 
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
@@ -68,6 +73,7 @@ namespace EstruDoPrograma.Menu{
             Console.WriteLine("\t\n    6: Problema da Distancia");
             Console.WriteLine("\t\n    7: Bazinga!");
             Console.WriteLine("\t\n    8: Coxinhas de Bueno");
+            Console.WriteLine("\t\n    9: Validação de Notas");
             Console.WriteLine("\t\n    X: Encerrar Programa");
             Console.WriteLine("\t\n #------------------------------------#");
 
