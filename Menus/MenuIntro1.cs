@@ -4,10 +4,12 @@ using EstruDoPrograma.MediaAlunos;
 namespace EstruDoPrograma.Menus{
     public class MenuIntro1{
         public void Escolha1(){
+            Console.Clear();
             String opcao = ObterOpcao1();
             while (opcao.ToUpper() != "X"){
                 switch (opcao){
                     case "1":
+                        Console.Clear();
                         var s = new Pilha();
                         for (int p = 0; p <= 5; p++){
                             s.Empilha(p);
@@ -17,24 +19,30 @@ namespace EstruDoPrograma.Menus{
                         }
                         break;
                     case "2":
+                        Console.Clear();
                         var med = new Media();
                         med.media();
                         break;    
                     case "3":
+                        Console.Clear();
+                        Console.WriteLine("\t  Digite a Quantidade: ");
                         var valor = new LacoBoasVindas();
                         int quan = Int32.Parse(Console.ReadLine());
                         valor.lacoBoas(quan);
                         break;
                     case "4":
+                        Console.Clear();
                         var div = new Divisao();
                         div.dividindo();
                         break;
                     case "5":
+                        Console.Clear();
                         Console.WriteLine("\t  Digite 5 Valores: ");
                         var som = new Mandiocas();
                         som.soma();
                         break;
                     case "6":
+                        Console.Clear();
                         var dist = new Distancia();
                         dist.dista();
                         break;

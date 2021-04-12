@@ -3,22 +3,27 @@ using EstruDoPrograma.DesafiosIntro3;
 namespace EstruDoPrograma.Menus{
     public class MenuIntro3{
         public void Escolha3(){
+            Console.Clear();
            String opcao = ObterOpcao3();
             while (opcao.ToUpper() != "X"){
                 switch (opcao){
                     case "1":
+                        Console.Clear();
                         var compra = new ComprasNoSupermercado();
                         compra.compras();
                         break;
                     case "2":
+                        Console.Clear();
                         var filadBanco = new FilaDoBanco();
                         filadBanco.filaBanco();
                         break;    
                     case "3":
+                        Console.Clear();
                         var validaSenha = new ValidadorDeSenhasComRequisitos();
                         validaSenha.validaSenhas();
                         break;
                     case "4":
+                        Console.Clear();
                         var validaNota = new ValidaNotas();
                         validaNota.validaNotas();
                         break;
