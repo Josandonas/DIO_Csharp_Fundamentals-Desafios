@@ -1,8 +1,5 @@
 using System;
-using EstruDoPrograma.DesafiosIntro1;
-using EstruDoPrograma.DesafiosIntro2;
-using EstruDoPrograma.DesafiosIntro3;
-using EstruDoPrograma.MediaAlunos;
+using EstruDoPrograma.Menus;
 
 namespace EstruDoPrograma.Menu{
     public class Menu{
@@ -11,48 +8,18 @@ namespace EstruDoPrograma.Menu{
             while (opcao.ToUpper() != "X"){
                 switch (opcao){
                     case "1":
-                        var s = new Pilha();
-                        for (int p = 0; p <= 5; p++){
-                            s.Empilha(p);
-                        }
-                        for (int p = 0; p <= 5; p++){
-                            Console.WriteLine(s.Desempilha());
-                        }
+                        var decisao1= new Menus.MenuIntro1();
+                        decisao1.Escolha1();
                         break;
                     case "2":
-                        var med = new Media();
-                        med.media();
+                        var decisao2= new Menus.MenuIntro2();
+                        decisao2.Escolha2();
                         break;    
                     case "3":
-                        var valor = new LacoBoasVindas();
-                        int quan = Int32.Parse(Console.ReadLine());
-                        valor.lacoBoas(quan);
+                        var decisao3= new Menus.MenuIntro3();
+                        decisao3.Escolha3();
                         break;
-                    case "4":
-                        var div = new Divisao();
-                        div.dividindo();
-                        break;
-                    case "5":
-                        Console.WriteLine("\t  Digite 5 Valores: ");
-                        var som = new Mandiocas();
-                        som.soma();
-                        break;
-                    case "6":
-                        var dist = new Distancia();
-                        dist.dista();
-                        break;
-                    case "7":
-                        var bazi = new Bazinga();
-                        bazi.bazing();
-                        break;
-                    case "8":
-                        var coxa = new CoxinhaDeBueno();
-                        coxa.coxinha();
-                        break;                                                
-                     case "9":
-                        var valida = new ValidaNotas();
-                        valida.validaNotas();
-                        break; 
+                    
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
@@ -65,15 +32,9 @@ namespace EstruDoPrograma.Menu{
         private static String ObterOpcao(){
             Console.WriteLine("\t\n #------------------------------------#");
             Console.WriteLine("\t\n   Digite uma das opções de execução:");
-            Console.WriteLine("\t\n    1: Pilha");
-            Console.WriteLine("\t\n    2: Cálclulo Da Média De Alunos");
-            Console.WriteLine("\t\n    3: Laço Boas Vindas");
-            Console.WriteLine("\t\n    4: Divisão Simples");
-            Console.WriteLine("\t\n    5: Problema das Mandiocas");
-            Console.WriteLine("\t\n    6: Problema da Distancia");
-            Console.WriteLine("\t\n    7: Bazinga!");
-            Console.WriteLine("\t\n    8: Coxinhas de Bueno");
-            Console.WriteLine("\t\n    9: Validação de Notas");
+            Console.WriteLine("\t\n    1: Introdução aos Desafios 1");
+            Console.WriteLine("\t\n    2: Introdução aos Desafios 2");
+            Console.WriteLine("\t\n    3: Introdução aos Desafios 3");
             Console.WriteLine("\t\n    X: Encerrar Programa");
             Console.WriteLine("\t\n #------------------------------------#");
 
